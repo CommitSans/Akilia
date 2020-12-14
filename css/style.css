@@ -16,6 +16,11 @@ body, html {
 /* /GENERAL */
 
 /* TYPOGRAPHY */
+.line-clamp {
+	height: 5.6em;
+	white-space: unset;
+}
+
 h1 {
 	font-size: 6em;
 	font-weight: bolder;
@@ -48,14 +53,11 @@ p {
 	border-bottom: 1px solid black;
 } */
 
-header {
+#home {
 	background-image: url("../img/akilia.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-header {
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -185,10 +187,6 @@ h1.underline:before {
 
 .card .company_bio a:hover {
 	text-decoration: underline;
-}
-
-#portfolio h1.underline:before {
-	background-color: white;
 }
 
 .ribbon-wrapper {

@@ -36,7 +36,7 @@
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <header id="home" class="has-overlay">
+  <header class="has-overlay">
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent px-md-4 fw-normal">
       <div class="container-fluid">
@@ -45,19 +45,19 @@
         </a>
         <div class="d-flex justify-content-end">
           <ul class="navbar-nav align-items-center">
-            <li class="nav-item">
+            <!-- <li class="nav-item d-none d-lg-block">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#manifesto">We believe in</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#team">Team</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#">News</a>
             </li>
             <li class="nav-item">
@@ -72,14 +72,17 @@
     <!-- /Navigation -->
   </header>
 
-  <main class="container">
+  <main class="container-fluid">
+
     <!-- Home -->
-    <div class="col-md-6 position-absolute bottom-0 end-0 pr-0 pb-4">
-      <h2 class="fw-bold">Inspired Investing</h2>
-      <p class="fs-6 fw-normal">
-        Akilia Island, Greenland, about 22 kilometers south of Nuuk, at 63.933oN 51.667oW. Akilia is the location of a rock formation that has been proposed to contain the oldest known sedimentary rocks on Earth, and perhaps the oldest evidence of life on Earth.
-        ^Mojzsis, SJ, Arrhenius, G, McKeegan, KD, Harrison, TM Nutman, AP, Friend, CRL (1996) Evidence of life on Earth before 3,800 million years ago. Nature, v.384, p. 55-59
-      </p>
+    <div id="home">
+      <div class="col-md-6 position-absolute bottom-0 end-0 pr-0 pb-4">
+        <h2 class="fw-bold">Inspired Investing</h2>
+        <p class="fs-6 fw-normal">
+          Akilia Island, Greenland, about 22 kilometers south of Nuuk, at 63.933oN 51.667oW. Akilia is the location of a rock formation that has been proposed to contain the oldest known sedimentary rocks on Earth, and perhaps the oldest evidence of life on Earth.
+          ^Mojzsis, SJ, Arrhenius, G, McKeegan, KD, Harrison, TM Nutman, AP, Friend, CRL (1996) Evidence of life on Earth before 3,800 million years ago. Nature, v.384, p. 55-59
+        </p>
+      </div>
     </div>
     <!-- Home -->
 
@@ -168,47 +171,52 @@
 
         <div class="row gy-4">
           <div class="col-sm-4">
-            <div class="card">
+            <div class="card" role="link" onclick="window.location='subpage.html'">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Neta Gilon</h5>
+                <p class="card-text line-clamp text-truncate">is an Organizational Psychologist and a senior tech executive. For the past 20 years Netta has worked both as an HR and operations professional, and as an advisor to multiple companies. In her most recent position Netta was Chief Operating Officer at Playtika, and was part of the management team which led it to a $4.5B acquisition in 2016 by Chinese consortium “Giant”. For the past 1.5 years Netta has been consulting companies at different stages, from early stage startups to fast-growing companies.  In 2014 Netta was selected for the “40 under 40” project, honoring the 40 most promising young professionals in the Israeli business world.
+                </p>
+                <a href="#" class="btn btn-light">Read more</a>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Amit Gilon</h5>
+                <p class="card-text line-clamp text-truncate">brings over 20 years of experience in the tech industry as both an entrepreneur/executive and investor. He has made 20 personal investments in early stage startups in Israel and the US, several led by him. For the past decade he has served as a BOD active member at 6 companies, and as a mentor and advisor to several others.
+                His knowledge spans across Marketing & Sales, Business Development, Operations and Management, and he has served in these capacities in several companies as a senior executive. He was also a partner at the private equity investment firm Kaedan Capital, which made such investments as Playtika (Sold to Caesars Interactive Entertainment), 5min (Sold to AOL), and VisualLead (Sold to Alibaba).
+              </p>
+                <a href="#" class="btn btn-light">Read more</a>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Gonzalo Rubio Paris</h5>
+                <p class="card-text line-clamp text-truncate">has over 20 year experience in finance and VC investment, having personally invested in Digital Health, MedTech and Biotech. He has cultivated a network of entrepreneurs and investors that provide access to deal flow and support in due diligence processes.  He initiated his career as an equities broker in 1999 and in 2001 he participated in his first capital raising for technology ventures. In 2006, Gonzalo co-founded an event driven fund. In 2007, he help lead the Series A financing round of AmWell, the largest Telehealth Enterprise Platform in the US, and has actively collaborated with Amwell in capital raising and business development throughout its journey. Through, 2012-2016 Gonzalo sailed with his family on a catamaran over 36,000 nm from Europe to NZ. Since 2016, he is full-time focused on VC investments, initially advising companies with capital raising activities and subsequently leading investments via SPVs. Gonzalo is an active investor, board member and observer in several companies.</p>
+                <a href="#" class="btn btn-light">Read more</a>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Matteo A. Legler</h5>
+                <p class="card-text line-clamp text-truncate">Is a seasoned entrepreneur and investor. Matteo started is career in a Swiss Private Bank. In 2000 he built a diversified group of companies operating in insurance brokerage, trading and wealth and asset management. Over the years, he has made significant investment in several ventures including in telecommunication (GTN) that lead to an seed stage investment in Echovox (parent Company of Zong bought for $240m by Ebay in 2011). In 2009 he co-founded and managed an asset management Company based in Malta with representation in Switzerland and the UAE. In 2012, Matteo became COO of ADS Securties LLC an Abu Dhabi based financial firm with a paid capital of 580m USD, where he built the wealth and asset management divisions, co-headed the investment banking and led the growth of the company in Asia. Matteo has served as BOD on many Companies including regulated financial institutions in Europe, the UAE and Asia.</p>
+                <a href="#" class="btn btn-light">Read more</a>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Vedat Barha</h5>
+                <p class="card-text line-clamp text-truncate">brings over 25 years of experience. He successfully founded, managed and sold various Financial Services and Commodities trading Companies. He started his career in a first-class Private Bank in Geneva. Vedat has deep understanding of most financial assets as well as Private Equity and Venture Capital. He has been an active investor in private technology companies such as Zong (sold to Ebay). Over the years Vedat has acquired an unprecedented network of people in Switzerland, US (Bay area) and Turkey. Vedat graduated from Boston University in 1993 with a degree in Business Administration and Finance, more recently he was a Senior VP ay Bedrock SA (the largest Independent Financial Services company. In Switzerland in terms of assets under management).
+                Real estate and architecture being one of his passions, he has successfully executed from ground up a very large real estate project in Geneva.
+                </p>
+                <a href="#" class="btn btn-light">Read more</a>
               </div>
             </div>
           </div>
@@ -224,43 +232,32 @@
 
       <div class="wrapper">
 
-        <h1 class="">Portfolio</h1>
+        <h1 class="mb-4 text-sm-center">Portfolio</h1>
 
-          <div class="gap-5 row justify-content-between">
-            <div class="col-md-3">
-              <div class="ratio ratio-4x3">
-                <img class="card-img-top" src="img/portfolio-logos/bodyvision.svg" alt="...">
-              </div>
+          <div class="row justify-content-around g-5">
+            <div class="col-md-3 align-self-center">
+              <img class="img-fluid" src="img/portfolio-logos/zong.png" alt="...">
             </div>
-            <div class="col-md-3">
-              <div class="ratio ratio-4x3">
-                <img class="card-img-top" src="img/portfolio-logos/bodyvision.svg" alt="...">
-              </div>
+            <!-- <div class="col-md-3 align-self-center">
+              <img class="img-fluid" src="img/portfolio-logos/amwell_logo.svg" alt="...">
+            </div> -->
+            <div class="col-md-3 align-self-center">
+              <img class="img-fluid" src="img/portfolio-logos/AmWell-logo.png" alt="...">
             </div>
-            <div class="col-md-3">
-              <div class="ratio ratio-4x3">
-                <img class="card-img-top" src="img/portfolio-logos/bodyvision.svg" alt="...">
-              </div>
+            <div class="col-md-3 align-self-center">
+              <img class="img-fluid" src="img/portfolio-logos/playtika_logo_horizontal.png" alt="...">
             </div>
-            <div class="col-md-3">
-              <div class="ratio ratio-4x3">
-                <img class="card-img-top" src="img/portfolio-logos/bodyvision.svg" alt="...">
-              </div>
+            <div class="col-md-3 align-self-center">
+              <img class="img-fluid" src="img/portfolio-logos/stalicla.jpg" alt="...">
             </div>
-            <div class="col-md-3">
-              <div class="ratio ratio-4x3">
-                <img class="card-img-top" src="img/portfolio-logos/bodyvision.svg" alt="...">
-              </div>
+            <div class="col-md-3 align-self-center">
+              <img class="img-fluid pa-4" src="img/portfolio-logos/bodyvision.svg" alt="...">
             </div>
-            <div class="col-md-3">
-              <div class="ratio ratio-4x3">
-                <img class="card-img-top" src="img/portfolio-logos/bodyvision.svg" alt="...">
-              </div>
+            <div class="col-md-3 align-self-center">
+              <img class="img-fluid" src="img/portfolio-logos/laminate.svg" alt="...">
             </div>
-            <div class="col-md-3">
-              <div class="ratio ratio-4x3">
-                <img class="card-img-top" src="img/portfolio-logos/bodyvision.svg" alt="...">
-              </div>
+            <div class="col-md-3 align-self-center">
+              <img class="img-fluid" src="img/portfolio-logos/currant-logo.jpg" alt="...">
             </div>
           </div>
 
@@ -269,7 +266,7 @@
     </section>
     <!-- /Portfolio -->
 
-    <!--  -->
+    <!-- Footer -->
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
       <div class="row">
         <div class="col-12 col-md">
@@ -290,9 +287,9 @@
         </div>
       </div>
     </footer>
-    <!--  -->
+    <!-- /Footer -->
+
   </main>
-  <!-- / -->
 
   <!-- <script src="js/vendor/modernizr-3.6.0.min.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
