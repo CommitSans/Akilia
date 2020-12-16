@@ -385,4 +385,7 @@ h1.underline:before {
 	.profile {
 		padding-top: 6rem;
 	}
+	.navbar-brand {
+		padding-left: 8px;
+	}
 }
