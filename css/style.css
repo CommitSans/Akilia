@@ -12,6 +12,7 @@ body, html {
 .navbar {
 	background-color: #FFFFFF;
 	transition: background .3s;
+	overflow: hidden;
 }
 
 .card:hover {
@@ -25,6 +26,19 @@ body, html {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
+
+ .btn-primary {
+	 background: #2f5597 !important;
+	 border: 1px solid #2f5597;
+ }
+
+ .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	 color: #2f5597 !important;
+ }
+
+ .portfolio-logo:hover {
+	 cursor: pointer;
+ }
 /* /GENERAL */
 
 /* TYPOGRAPHY */
@@ -114,6 +128,10 @@ footer {
 
 .more-pading-top {
 	padding-top: 16% !important;
+}
+
+footer .wrapper {
+	padding: 3rem 2rem 2rem 2rem;
 }
 
 .wrapper {
@@ -360,5 +378,11 @@ h1.underline:before {
 
 	.company_data__name {
 		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 992px) {
+	.profile {
+		padding-top: 6rem;
 	}
 }
