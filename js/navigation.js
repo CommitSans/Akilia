@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	var threshold = 200;	// Pixels before topbar	color
+	var threshold = 8;	// Pixels before topbar	color
 	var inactiveClass = 'bg-transparent';	// Active navbar class
 
 	var navbar = $('nav');
