@@ -15,6 +15,11 @@ body, html {
 	overflow: hidden;
 }
 
+.navbar-brand {
+	padding: 0px !important;
+	font-size: 0rem !important;
+}
+
 .card:hover {
 	cursor: pointer;
 	box-shadow: 0 4px 24px 0 rgba(0,0,0,.06) !important;
@@ -45,9 +50,18 @@ body, html {
 	 background-color: #eaeaea;
 	}
 
- .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	 color: #002060 !important;
- }
+/* .navbar-light .navbar-nav .nav-link:focus {
+ box-shadow: inset 0 -1px 0 #001f5e;
+} */
+
+.navbar-light .navbar-nav .nav-link:hover {
+	box-shadow: inset 0 -1px 0 #001f5e;
+}
+
+/* navbar link color */
+.navbar-light .navbar-nav .nav-link {
+ color: #001f5e !important;
+}
 
  .portfolio-logo:hover {
 	 cursor: pointer;
@@ -257,7 +271,19 @@ h1.underline:before {
 	color: #fff;
 }
 
+.card-title, .featurette-heading {
+	font-weight: 700;
+}
+
 @media screen and (max-width: 777px) {
+
+	.navbar {
+		height: 4rem;
+	}
+
+	#home {
+		height: 64vh;
+	}
 
 	nav {
 		overflow-x: scroll;
@@ -401,9 +427,6 @@ h1.underline:before {
 	}
 	body, html {
 	  font-weight: 400;
-	}
-	.card-title, .featurette-heading {
-		font-weight: 700;
 	}
 	.lead {
 		font-weight: 400;
